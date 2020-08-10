@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 00;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.glav{
+    text-align: center;
+    /*font-family: 'Alice', serif;*/
+    font-family: 'Cormorant Infant', serif;
+
+    color: lavender;
+    font-size: 50px;
+    
+}
+video{
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+
+}
+section{
+    position: relative;
+}
